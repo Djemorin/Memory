@@ -63,10 +63,10 @@ body{
 
 #score{
     color: white;
-    font: size 40px;
+    font: size 50px;
     font-weight: bold;
     text-shadow: 2px 2px 5px black !important;
     position: fixed;
     top: 1%;
-    left: 1%;
+    right: 1%;
 }
