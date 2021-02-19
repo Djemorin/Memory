@@ -62,10 +62,10 @@ body{
 }
 
 #score{
-    color: purple;
+    color: lemonchiffon;
     font: size 50px;
     font-weight: bold;
-    text-shadow: 2px 2px 5px aqua !important;
+    text-shadow: 2px 2px 5px white !important;
     position: fixed;
     top: 1%;
     right: 1%;
