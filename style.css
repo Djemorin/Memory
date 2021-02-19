@@ -31,7 +31,7 @@ body{
     /* width: calc(25% - 20px); */
        width: 80px;
     height: 20%;
-    margin: 10px;
+    margin: 5px;
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
