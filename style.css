@@ -23,7 +23,7 @@ body{
     margin: auto;
     flex-wrap: wrap;
     perspective: 1000px;
-    justify-content: center center;
+    justify-content: center;
 }
 
 .memory-card{
@@ -63,10 +63,18 @@ body{
 
 #score{
     color: lemonchiffon;
-    font-size: 2em;
+    background-color: black;
+    box-shadow: 1px 1px 3px yellow;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    font-size: 1.5em;
     font-weight: bold;
     text-shadow: 2px 2px 5px white !important;
     position: fixed;
     top: 1%;
     right: 1%;
+    text-align: center;
+    
+    
+    
 }
