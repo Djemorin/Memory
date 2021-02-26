@@ -35,7 +35,7 @@ body{
     margin-right: 5px;
     margin-top: 1px;
     margin-bottom: 1px; */
-    margin: .5%;
+    margin: auto;
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
