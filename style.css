@@ -12,8 +12,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .memory-game{
@@ -28,14 +27,9 @@ body{
 
 .memory-card{
     position: relative;
-    /* width: calc(25% - 14px); */
-       width: 100px;
-    height: 150px;
-    /* margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 1px;
-    margin-bottom: 1px; */
-    margin: auto;
+    width: calc(14% - 14px);
+    height: 25%;
+    margin: 7px;
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
@@ -56,7 +50,6 @@ body{
     width: 100%;
     height: 100%;
     position: absolute;
-    /* padding: 20px; */
     border-radius: 5px;
     backface-visibility: hidden;
 }
@@ -69,7 +62,6 @@ body{
     color: lemonchiffon;
     background-color: black;
     box-shadow: 1px 1px 3px yellow;
-    /* border: 1px solid red; */
     border-radius: 50%;
     font-size: 1.5em;
     font-weight: bold;
@@ -81,8 +73,13 @@ body{
 }
 
 @media(max-width: 700px){
+    .memory-game{
+        margin: 0;
+    }
+    
     .memory-card{
         width: calc(25% - 14px);
+        height: 25%;
         margin: 7px;
     }
 }
