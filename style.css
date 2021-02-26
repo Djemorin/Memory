@@ -28,7 +28,7 @@ body{
 
 .memory-card{
     position: relative;
-    /* width: calc(25% - 20px); */
+    /* width: calc(25% - 14px); */
        width: 80px;
     height: 20%;
     margin: 7px;
@@ -73,8 +73,12 @@ body{
     position: fixed;
     top: 1%;
     right: 1%;
-    text-align: center;
-    
-    
-    
+    text-align: center; 
+}
+
+@media(max-width: 700px){
+    .memory-card{
+        width: calc(25% - 14px);
+        margin: 7px;
+    }
 }
