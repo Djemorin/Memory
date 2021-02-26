@@ -28,7 +28,7 @@ body{
 .memory-card{
     position: relative;
     width: calc(14% - 14px);
-    height: 25%;
+    height: 23%;
     margin: 7px;
     transform: scale(1);
     transform-style: preserve-3d;
