@@ -20,6 +20,7 @@ body{
     height: 720px;
     display: flex;
     margin: auto;
+    padding: 3%;
     flex-wrap: wrap;
     perspective: 1000px;
     justify-content: center;
@@ -27,9 +28,9 @@ body{
 
 .memory-card{
     position: relative;
-    width: calc(14% - 14px);
-    height: 23%;
-    margin: 7px;
+    width: calc(14% - 10px);
+    height: calc(25% - 10px);
+    margin: 5px;
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
@@ -75,11 +76,12 @@ body{
 @media(max-width: 700px){
     .memory-game{
         margin: 0;
+        padding: 5%;
     }
     
     .memory-card{
-        width: calc(25% - 14px);
-        height: 25%;
-        margin: 7px;
+        width: calc(25% - 10px);
+        height: calc(25% - 10px);
+        margin: 5px;
     }
 }
