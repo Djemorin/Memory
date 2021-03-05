@@ -77,11 +77,12 @@ body{
     .memory-game{
         margin: 0;
         padding: 5%;
+        height: 720px;
     }
     
     .memory-card{
         width: calc(25% - 10px);
-        height: calc(18% - 10px);
+        height: calc(25% - 10px);
         margin: 5px;
     }
 }
