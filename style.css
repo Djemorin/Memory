@@ -86,3 +86,12 @@ body{
         margin: 5px;
     }
 }
+
+@media(min-width: 1600px){
+    .memory-game{
+        width: 800px;
+    }
+    #score{
+        font-size: 3em;
+    }
+}
