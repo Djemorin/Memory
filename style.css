@@ -24,6 +24,7 @@ body{
     flex-wrap: wrap;
     perspective: 1000px;
     justify-content: center;
+    align-items: center;
 }
 
 .memory-card{
@@ -74,10 +75,16 @@ body{
 }
 
 @media(max-width: 700px){
+    .html{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
     .memory-game{
         margin: 0;
         padding: 5%;
-        height: 680px;
+        height: 100%;
+        width: 100%;
     }
     
     .memory-card{
